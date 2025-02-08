@@ -1,0 +1,60 @@
+<template>
+    <div class="container mx-auto p-6">
+        <header class="text-center">
+            <h1 class="text-3xl font-bold">MarceloXP - Desenvolvedor Full Stack</h1>
+            <p class="text-lg text-gray-600">
+                Profissional com mais de 20 anos de experiência em desenvolvimento de software, especializado em PHP,
+                Laravel, Node.js, MySQL e PostgreSQL. Foco em soluções escaláveis, segurança e eficiência, com expertise
+                em sistemas complexos e integrados. Atuação em logística, TI e publicidade, sempre buscando inovação e
+                alto desempenho.
+            </p>
+        </header>
+
+        <section v-if="data" class="mt-10">
+            <h2 class="text-2xl font-semibold">Habilidades e Tecnologias</h2>
+            <ul class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
+                <li v-for="tech in data.skills" :key="tech" class="bg-gray-100 p-3 rounded-lg shadow">
+                    {{ tech }}
+                </li>
+            </ul>
+        </section>
+
+        <section v-if="data" class="mt-10">
+            <h2 class="text-2xl font-semibold">Projetos em Destaque</h2>
+            <div class="grid md:grid-cols-2 gap-6 mt-4">
+                <div v-for="project in data.projects" :key="project.name" class="bg-white p-4 rounded-lg shadow">
+                    <h3 class="text-xl font-bold">{{ project.name }}</h3>
+                    <p class="text-gray-600">{{ project.description }}</p>
+                    <a :href="project.link" target="_blank" class="text-blue-500 mt-2 inline-block"
+                        v-if="project.link">Ver Projeto</a>
+                </div>
+            </div>
+        </section>
+
+        <section v-if="data" class="mt-10">
+            <h2 class="text-2xl font-semibold">Minha Jornada Tecnológica</h2>
+            <div class="grid gap-6 mt-4">
+                <div v-for="tech in data.history" :key="tech.period" class="bg-gray-50 p-4 rounded-lg shadow">
+                    <h3 class="text-xl font-bold">{{ tech.period }} | {{ tech.name }}</h3>
+                    <p class="text-gray-600">{{ tech.description }}</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center mt-10 text-gray-500">
+            <p>Entre em contato: <a href="mailto:marceloxp@gmail.com" class="text-blue-500">marceloxp@gmail.com</a>
+            </p>
+        </footer>
+    </div>
+</template>
+
+<script setup>
+const { data } = await useFetch("/api/site");
+</script>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+</style>
