@@ -12,11 +12,14 @@
 
         <section v-if="data" class="mt-10">
             <ul
-                class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 mt-4 justify-center">
-                <li v-for="tech in data.skills" :key="tech"
-                    class="tech-icon h-32 w-32 p-3 rounded-lg shadow text-center flex flex-col justify-center items-center">
-                    <img :src="`https://cdn.simpleicons.org/${tech.toLowerCase()}`" alt="Logo" class="w-12 h-12 mb-2" />
-                    <span>{{ tech }}</span>
+                class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-5 gap-4 justify-around justify-items-center">
+                <li v-for="tech in data.skills" :key="tech" class=""
+                    >
+                    <div class="tech-icon h-32 w-32 p-3 rounded-lg shadow text-center flex flex-col items-center justify-center">
+                        <img :src="`https://cdn.simpleicons.org/${tech.toLowerCase()}`" alt="Logo"
+                            class="w-12 h-12 mb-2" />
+                        <span>{{ tech }}</span>
+                    </div>
                 </li>
             </ul>
         </section>
