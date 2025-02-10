@@ -19,7 +19,7 @@ projects:
     image: images/projects/StatusBarText.png
     description: |
       Uma extensão que exibe um texto personalizado na barra de status com base na configuração do usuário.
-    link: 'https://github.com/marceloxp/statusbartext'
+    link: 'https://marketplace.visualstudio.com/items?itemName=Marceloxp.statusbartext'
   - name: JsBaseClass
     image: images/projects/JsBaseClass.png
     description: |
