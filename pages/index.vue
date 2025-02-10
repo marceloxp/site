@@ -19,7 +19,7 @@
 
         <section v-if="data" class="mt-6">
             <h1 class="text-2xl font-semibold text-center mb-8">Habilidades e Tecnologias</h1>
-            <ul v-if="data.skills" class="grid-tech">
+            <ul v-if="data.skills" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-4 justify-around justify-items-center">
                 <li v-for="tech in data.skills" :key="tech">
                     <TechIcon :tech="tech" />
                 </li>
@@ -33,12 +33,9 @@
 
         <section v-if="data" class="mt-10">
             <h1 class="text-2xl font-semibold text-center mb-8">Jornada Tecnológica</h1>
-            <div class="grid gap-6 mt-4">
-                <div v-for="tech in data.history" :key="tech.period" class="p-4 rounded-lg shadow">
-                    <h3 class="text-xl font-bold">{{ tech.period }} | {{ tech.name }}</h3>
-                    <p class="text-gray-600">{{ tech.description }}</p>
-                </div>
-            </div>
+            <ul v-for="(tech, index) in data.history" :key="tech.period" class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+                <TimelineItem :tech="tech" :index="index" />
+            </ul>
         </section>
 
         <footer class="text-center mt-10 text-gray-500">
@@ -68,10 +65,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
-}
-
-.grid-tech {
-    @apply grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-4 justify-around justify-items-center;
 }
 
 #top-hero {
