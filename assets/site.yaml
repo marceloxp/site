@@ -46,50 +46,62 @@ projects:
 
 history:
   - name: Basic TK2000
+    slug: basic-tk2000
     period: 1986
     description: |
       Meu primeiro contato com programação foi no TK2000, um dos primeiros computadores pessoais que tive acesso. Aprender Basic foi o pontapé inicial para minha paixão por tecnologia e programação. A sensação de "fazer a máquina trabalhar para mim" me inspirou a continuar nesse caminho.
   - name: Windows 3.11 e Windows 95
+    slug: windows-311-and-windows-95
     period: 1995-1996
     description: |
       Minha jornada começou com o Windows 3.11, e logo evoluí para o Windows 95, uma revolução na interface de usuário. Esses sistemas operacionais ajudaram a moldar minha compreensão de como a interface e a experiência do usuário devem ser integradas e otimizadas.
   - name: CorelDraw
+    slug: coreldraw
     period: 1995-1997
     description: |
       Durante este período, trabalhei com artes gráficas e o CorelDraw foi minha ferramenta principal. Criar layouts e design visual para projetos de comunicação e marketing me ajudou a desenvolver uma sensibilidade estética que complementa meu trabalho como desenvolvedor até hoje.
   - name: Aldus PageMaker
+    slug: aldus-pagemaker
     period: 1995-1997
     description: |
       O PageMaker foi essencial para a criação de materiais gráficos e diagramação de publicações. Essa experiência me ajudou a entender a importância de organizar informações de forma visualmente agradável e eficiente, o que continua influenciando minha abordagem de design de interfaces e desenvolvimento web.
   - name: ASP - Active Server Pages
+    slug: asp
     period: 2000
     description: |
       Com ASP, dei meus primeiros passos na construção de páginas dinâmicas, muito antes do boom dos frameworks modernos. Lidar com scripts no lado do servidor me deu uma base sólida para trabalhar com back-end e integrar sistemas de forma eficaz.
   - name: Access
+    slug: access
     period: 2000
     description: |
       O Access foi o banco de dados que utilizei para dar suporte aos sites desenvolvidos em ASP. Era uma solução prática para criar bases de dados simples e protótipos rápidos, e permitiu o desenvolvimento de pequenos sistemas corporativos e automação de processos de forma ágil.
   - name: Adobe GoLive
+    slug: adobe-golive
     period: 2001
     description: |
       Em um momento de transição do design gráfico para o desenvolvimento web, usei o GoLive para criar sites dinâmicos, implementando as primeiras interações com o usuário por meio de HTML e JavaScript.
   - name: Delphi 3, 5 e 7
+    slug: delphi
     period: 1997-2011
     description: |
       Delphi foi uma das ferramentas mais impactantes no início da minha carreira. Criar aplicativos desktop complexos, com interfaces intuitivas e interatividade, foi fundamental para meu crescimento como desenvolvedor. A robustez do Delphi me permitiu criar sistemas de grande porte, incluindo softwares de gestão e automação.
   - name: CakePHP
+    slug: cakephp
     period: 2013
     description: |
       Com o CakePHP, comecei a desenvolver sites institucionais e campanhas de marketing para grandes empresas brasileiras. O framework trouxe organização ao desenvolvimento PHP, permitindo criar aplicações escaláveis e seguras com rapidez.
   - name: MySQL
+    slug: mysql
     period: 2013
     description: |
       Adotei o MySQL como banco de dados principal nos projetos desenvolvidos com CakePHP. Sua popularidade e compatibilidade com frameworks PHP o tornaram a escolha ideal para armazenar e gerenciar grandes volumes de dados com eficiência e desempenho.
   - name: CodeIgniter
+    slug: codeigniter
     period: 2015
     description: |
-      CodeIgniter foi minha introdução ao mundo dos frameworks PHP modernos. Sua estrutura leve e de fácil configuração permitia desenvolver aplicações rapidamente, sem a complexidade de outras soluções da época. Com ele, criei sites institucionais e sistemas personalizados, aproveitando sua flexibilidade para entregar projetos ágeis e eficientes. A experiência com CodeIgniter foi essencial para minha transição posterior ao Laravel, consolidando meu conhecimento em arquitetura MVC e boas práticas de desenvolvimento.
+      CodeIgniter foi minha introdução ao mundo dos frameworks PHP modernos. Sua estrutura leve e de fácil configuração permitia desenvolver aplicações rapidamente, sem a complexidade de outras soluções da época. Com ele, criei sites institucionais e sistemas personalizados.
   - name: Laravel
+    slug: laravel
     period: 2017
     description: |
       Em 2017, adotei o Laravel como meu principal framework PHP. Sua abordagem moderna, baseada em MVC, e recursos como Eloquent ORM, Blade e migrações facilitaram a criação de aplicações escaláveis e bem estruturadas. Desde então, tenho utilizado o Laravel para desenvolver sistemas robustos, APIs eficientes e aplicações de alto desempenho.

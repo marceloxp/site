@@ -11,15 +11,13 @@
         <div :class="item_class">
             <time class="font-mono italic">{{ tech.period }}</time>
             <div class="text-lg font-black">{{ tech.name }}</div>
-            {{ tech.description }}
+            <TimelineItemGrid :tech="tech" :index="index" />
         </div>
         <hr />
     </li>
 </template>
 
 <script setup>
-import { computed } from 'vue'
-
 const props = defineProps(['tech', 'index'])
 
 const class_left = 'timeline-start mb-10 md:text-end'
@@ -27,5 +25,3 @@ const class_right = 'timeline-end md:mb-10'
 
 const item_class = computed(() => (props.index % 2 === 0 ? class_left : class_right))
 </script>
-
-<style scoped></style>
