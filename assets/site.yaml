@@ -12,22 +12,26 @@ skills:
 
 projects:
   - name: Status Bar Text
+    image: images/projects/StatusBarText.png
     description: |
       Uma extensão que exibe um texto personalizado na barra de status com base na configuração do usuário.
     link: 'https://github.com/marceloxp/statusbartext'
   - name: JsBaseClass
+    image: images/projects/JsBaseClass.png
     description: |
       Uma classe base versátil em JavaScript para simplificar tarefas comuns,
       como logging, manipulação de eventos e detecção de navegador. Projetada
       para ser modular, reutilizável e de fácil integração.
     link: 'https://github.com/marceloxp/jsBaseClass'
   - name: JsWidthBreakpoints
+    image: images/projects/JsWidthBreakpoints.png
     description: |
       Uma biblioteca leve em JavaScript puro para gerenciar breakpoints
       responsivos com classes CSS dinâmicas e regras visuais. Permite definir
       breakpoints personalizados e visualizar mudanças de layout.
     link: 'https://github.com/marceloxp/JsWidthBreakpoints'
   - name: QuickMarks for YouTube
+    image: images/projects/QuickMarks.png
     description: |
       Mark, organize, and navigate your favorite moments on YouTube videos
       quickly and easily! Com QuickMarks for YouTube, você pode marcar momentos

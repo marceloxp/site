@@ -19,14 +19,7 @@
         </section>
 
         <section v-if="data" class="mt-10">
-            <div class="grid md:grid-cols-2 gap-6 mt-4">
-                <div v-for="project in data.projects" :key="project.name" class="base-300 p-4 rounded-lg shadow">
-                    <h3 class="text-xl font-bold">{{ project.name }}</h3>
-                    <p class="text-gray-600">{{ project.description }}</p>
-                    <a :href="project.link" target="_blank" class="text-blue-500 mt-2 inline-block"
-                        v-if="project.link">Ver Projeto</a>
-                </div>
-            </div>
+            <Projects :projects="data.projects" />
         </section>
 
         <section v-if="data" class="mt-10">
