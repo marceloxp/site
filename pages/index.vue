@@ -11,6 +11,7 @@
         </header>
 
         <section v-if="data" class="mt-10">
+            <h1 class="text-2xl font-semibold text-center mb-8">Habilidades e Tecnologias</h1>
             <ul v-if="data.skills" class="grid-tech">
                 <li v-for="tech in data.skills" :key="tech">
                     <TechIcon :tech="tech" />
@@ -19,10 +20,12 @@
         </section>
 
         <section v-if="data" class="mt-10">
+            <h1 class="text-2xl font-semibold text-center mb-8">Projetos</h1>
             <Projects :projects="data.projects" />
         </section>
 
         <section v-if="data" class="mt-10">
+            <h1 class="text-2xl font-semibold text-center mb-8">Jornada Tecnológica</h1>
             <div class="grid gap-6 mt-4">
                 <div v-for="tech in data.history" :key="tech.period" class="p-4 rounded-lg shadow">
                     <h3 class="text-xl font-bold">{{ tech.period }} | {{ tech.name }}</h3>
@@ -60,6 +63,6 @@ body {
 }
 
 .grid-tech {
-    @apply grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-5 gap-4 justify-around justify-items-center;
+    @apply grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-4 justify-around justify-items-center;
 }
 </style>

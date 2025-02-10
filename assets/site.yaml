@@ -1,14 +1,18 @@
 skills:
   - PHP
   - Laravel
-  - WordPress
   - Node.js
   - HTML5
   - JavaScript
   - jQuery
   - Git
+  - WordPress
   - MySql
   - PostgreSQL
+  - TailwindCSS
+  - daisyUI
+  - Nuxt
+  - Gulp
 
 projects:
   - name: Status Bar Text
