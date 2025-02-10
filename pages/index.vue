@@ -1,16 +1,23 @@
 <template>
-    <div class="container mx-auto p-6">
-        <header class="text-center">
-            <h1 class="text-3xl font-bold">MarceloXP - Desenvolvedor Full Stack</h1>
-            <p class="text-lg">
-                Profissional com mais de 20 anos de experiência em desenvolvimento de software, especializado em PHP,
-                Laravel, Node.js, MySQL e PostgreSQL. Foco em soluções escaláveis, segurança e eficiência, com expertise
-                em sistemas complexos e integrados. Atuação em logística, TI e publicidade, sempre buscando inovação e
-                alto desempenho.
-            </p>
-        </header>
+    <div class="container mx-auto px-6 py-4">
 
-        <section v-if="data" class="mt-10">
+        <div id="top-hero" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content text-neutral-content text-center">
+                <div class="max-w-3xl">
+                    <h1 class="text-5xl font-bold">MarceloXP</h1>
+                    <h2 class="mb-2 text-3xl font-bold">Desenvolvedor Full Stack</h2>
+                    <p>
+                        Profissional com mais de 20 anos de experiência em desenvolvimento de software, especializado em
+                        PHP, Laravel, Node.js, MySQL e PostgreSQL. Foco em soluções escaláveis, seguras e eficientes,
+                        com expertise no desenvolvimento de sistemas complexos e integrados. Atuação nos setores de
+                        logística, TI e publicidade, sempre buscando inovação e alto desempenho.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <section v-if="data" class="mt-6">
             <h1 class="text-2xl font-semibold text-center mb-8">Habilidades e Tecnologias</h1>
             <ul v-if="data.skills" class="grid-tech">
                 <li v-for="tech in data.skills" :key="tech">
@@ -46,7 +53,8 @@ const { data } = await useFetch("/api/site");
 
 useHead({
     link: [
-        { rel: 'preload', href: '/images/background.png', as: 'image' }
+        { rel: 'preload', href: '/images/background.png', as: 'image' },
+        { rel: 'preload', href: '/images/site-header-bg.jpg', as: 'image' },
     ],
     htmlAttrs: [{ 'data-theme': 'dark' }],
 })
@@ -64,5 +72,12 @@ body {
 
 .grid-tech {
     @apply grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-4 justify-around justify-items-center;
+}
+
+#top-hero {
+    background-image: url(/images/site-header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 </style>
