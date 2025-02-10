@@ -3,16 +3,31 @@
 
         <div id="top-hero" class="hero">
             <div class="hero-overlay"></div>
-            <div class="hero-content text-neutral-content text-center">
+            <div class="hero-content text-neutral-content text-left">
                 <div class="max-w-3xl">
-                    <h1 class="text-5xl font-bold">MarceloXP</h1>
-                    <h2 class="mb-2 text-3xl font-bold">Desenvolvedor Full Stack</h2>
-                    <p>
-                        Profissional com mais de 20 anos de experiência em desenvolvimento de software, especializado em
-                        PHP, Laravel, Node.js, MySQL e PostgreSQL. Foco em soluções escaláveis, seguras e eficientes,
-                        com expertise no desenvolvimento de sistemas complexos e integrados. Atuação nos setores de
-                        logística, TI e publicidade, sempre buscando inovação e alto desempenho.
-                    </p>
+                    <div class="grid grid-cols-1 sm:grid-cols-[auto_1fr] gap-4">
+                        <!-- Avatar -->
+                        <div class="flex justify-center sm:justify-start">
+                            <div class="avatar">
+                                <div class="rounded-xl overflow-hidden w-48 h-48">
+                                    <img src="/images/nose-3.png" class="w-full h-full object-cover" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Texto -->
+                        <div class="text-center sm:text-left">
+                            <h1 class="text-3xl font-bold">MarceloXP</h1>
+                            <h2 class="mb-2 text-xl sm:text-xl font-bold">Desenvolvedor Full Stack</h2>
+                            <p class="text-xs sm:text-sm md:text-base">
+                                Profissional com mais de 20 anos de experiência em desenvolvimento de software,
+                                especializado em PHP, Laravel, Node.js, MySQL e PostgreSQL. Foco em soluções escaláveis,
+                                seguras e eficientes, com expertise no desenvolvimento de sistemas complexos e
+                                integrados. Atuação nos setores de logística, TI e publicidade, sempre buscando inovação
+                                e alto desempenho.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
