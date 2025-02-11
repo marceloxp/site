@@ -50,7 +50,7 @@
         <section v-if="data" class="mt-10">
             <h1 class="text-2xl font-semibold text-center mb-8">Jornada Tecnológica</h1>
             <ul v-for="(tech, index) in data.history" :key="tech.period"
-                class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+                class="timeline timeline-snap-icon max-lg:timeline-compact timeline-vertical">
                 <TimelineItem :tech="tech" :index="index" />
             </ul>
         </section>
