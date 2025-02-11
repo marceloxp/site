@@ -6,7 +6,6 @@
             <div class="hero-content text-neutral-content text-left">
                 <div class="max-w-3xl">
                     <div class="grid grid-cols-1 sm:grid-cols-[auto_1fr] gap-4">
-                        <!-- Avatar -->
                         <div class="flex justify-center sm:justify-start">
                             <div class="avatar">
                                 <div class="rounded-xl overflow-hidden w-48 h-48">
@@ -15,7 +14,6 @@
                             </div>
                         </div>
 
-                        <!-- Texto -->
                         <div class="text-center sm:text-left">
                             <h1 class="text-3xl font-bold">MarceloXP</h1>
                             <h2 class="mb-2 text-xl sm:text-xl font-bold">Desenvolvedor Full Stack</h2>
@@ -35,7 +33,7 @@
         <section v-if="data" class="mt-6">
             <h1 class="text-2xl font-semibold text-center mb-8">Habilidades e Tecnologias</h1>
             <ul v-if="data.skills"
-                class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-4 justify-around justify-items-center">
+                class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-4 justify-around justify-items-center">
                 <li v-for="tech in data.skills" :key="tech">
                     <TechIcon :tech="tech" />
                 </li>
