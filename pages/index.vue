@@ -1,6 +1,5 @@
 <template>
     <div class="container mx-auto px-6 py-4">
-
         <div id="top-hero" class="hero">
             <div class="hero-overlay"></div>
             <div class="hero-content text-neutral-content text-left">
@@ -9,7 +8,7 @@
                         <div class="flex justify-center sm:justify-start">
                             <div class="avatar">
                                 <div class="rounded-xl overflow-hidden w-48 h-48">
-                                    <img src="/images/nose-3.png" class="w-full h-full object-cover" />
+                                    <NuxtImg src="/images/nose-3.png" class="w-full h-full object-cover" />
                                 </div>
                             </div>
                         </div>
