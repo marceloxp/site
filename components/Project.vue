@@ -1,6 +1,6 @@
 <template>
     <div class="mx-10">
-        <div class="card bg-base-100 w-96 shadow-sm">
+        <div class="card bg-base-100 md:w-96 shadow-sm">
             <figure class="px-10 pt-10">
                 <img :src="project.image" alt="Shoes" class="rounded-xl w-80 h-40 object-cover" />
             </figure>
