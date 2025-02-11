@@ -19,7 +19,7 @@
                         <div class="text-center sm:text-left">
                             <h1 class="text-3xl font-bold">MarceloXP</h1>
                             <h2 class="mb-2 text-xl sm:text-xl font-bold">Desenvolvedor Full Stack</h2>
-                            <p class="text-xs sm:text-sm md:text-base">
+                            <p class="text-sm md:text-base">
                                 Profissional com mais de 20 anos de experiência em desenvolvimento de software,
                                 especializado em PHP, Laravel, Node.js, MySQL e PostgreSQL. Foco em soluções escaláveis,
                                 seguras e eficientes, com expertise no desenvolvimento de sistemas complexos e
