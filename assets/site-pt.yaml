@@ -1,3 +1,17 @@
+description: |
+  Profissional com mais de 20 anos de experiência em desenvolvimento de software,
+  especializado em PHP, Laravel, Node.js, MySQL e PostgreSQL. Foco em soluções escaláveis,
+  seguras e eficientes, com expertise no desenvolvimento de sistemas complexos e
+  integrados. Atuação nos setores de logística, TI e publicidade, sempre buscando inovação
+  e alto desempenho.
+
+labels:
+  developer: Desenvolvedor Full Stack
+  habilities: Habilidades e Tecnologias
+  projects: Projetos
+  journey: Jornada Tecnológica
+  contact: Entre em contato
+
 skills:
   - PHP
   - Laravel

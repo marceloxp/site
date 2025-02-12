@@ -1,0 +1,109 @@
+description: |
+  Professional with over 20 years of experience in software development, specializing in PHP, Laravel, Node.js, MySQL, and PostgreSQL. Focused on scalable, secure, and efficient solutions, with expertise in developing complex and integrated systems. Experience in logistics, IT, and advertising sectors, always seeking innovation and high performance.
+
+labels:
+  developer: Full Stack Developer
+  habilities: Skills and Technologies
+  projects: Projects
+  journey: Technological Journey
+  contact: Get in touch
+
+skills:
+  - PHP
+  - Laravel
+  - Node.js
+  - HTML5
+  - JavaScript
+  - jQuery
+  - Git
+  - WordPress
+  - MySql
+  - PostgreSQL
+  - TailwindCSS
+  - daisyUI
+  - Nuxt
+  - Gulp
+
+projects:
+  - name: Status Bar Text
+    image: images/projects/StatusBarText.png
+    description: |
+      An extension that displays a custom text in the status bar based on user configuration. Configurable locally and globally.
+    link: 'https://marketplace.visualstudio.com/items?itemName=Marceloxp.statusbartext'
+  - name: JsBaseClass
+    image: images/projects/JsBaseClass.png
+    description: |
+      A versatile base class in JavaScript to simplify common tasks, such as logging, event handling, and browser detection.
+    link: 'https://github.com/marceloxp/jsBaseClass'
+  - name: JsWidthBreakpoints
+    image: images/projects/JsWidthBreakpoints.png
+    description: |
+      A lightweight JavaScript library for managing responsive breakpoints with dynamic CSS classes and visual rules.
+    link: 'https://github.com/marceloxp/JsWidthBreakpoints'
+  - name: QuickMarks for YouTube
+    image: images/projects/QuickMarks.png
+    description: |
+      With QuickMarks for YouTube, you can bookmark specific moments in videos, organize them, and access them quickly.
+    link: 'https://chromewebstore.google.com/detail/quickmarks-for-youtube/jldmmhngchnkkgmjpjncaekemhceaing'
+
+history:
+  - name: Basic TK2000
+    slug: basic-tk2000
+    period: 1986
+    description: |
+      My first contact with programming was on the TK2000, one of the first personal computers I had access to. Learning Basic was the starting point for my passion for technology and programming. The feeling of "making the machine work for me" inspired me to continue on this path.
+  - name: Windows 3.11 and Windows 95
+    slug: windows-311-and-windows-95
+    period: 1995-1996
+    description: |
+      My journey started with Windows 3.11 and soon evolved to Windows 95, a revolution in user interface design. These operating systems helped shape my understanding of how interface and user experience should be integrated and optimized.
+  - name: CorelDraw
+    slug: coreldraw
+    period: 1995-1997
+    description: |
+      During this period, I worked with graphic design, and CorelDraw was my main tool. Creating layouts and visual designs for communication and marketing projects helped me develop an aesthetic sense that still complements my work as a developer today.
+  - name: Aldus PageMaker
+    slug: aldus-pagemaker
+    period: 1995-1997
+    description: |
+      PageMaker was essential for creating graphic materials and publication layouts. This experience taught me the importance of organizing information in a visually pleasing and efficient way, which continues to influence my approach to UI design and web development.
+  - name: ASP - Active Server Pages
+    slug: asp
+    period: 2000
+    description: |
+      With ASP, I took my first steps in building dynamic web pages, long before the boom of modern frameworks. Working with server-side scripts gave me a solid foundation for backend development and system integration.
+  - name: Access
+    slug: access
+    period: 2000
+    description: |
+      Access was the database I used to support websites developed in ASP. It was a practical solution for creating simple databases and rapid prototypes, enabling the development of small corporate systems and process automation efficiently.
+  - name: Adobe GoLive
+    slug: adobe-golive
+    period: 2001
+    description: |
+      During my transition from graphic design to web development, I used GoLive to create dynamic websites, implementing early user interactions through HTML and JavaScript.
+  - name: Delphi 3, 5, and 7
+    slug: delphi
+    period: 1997-2011
+    description: |
+      Delphi was one of the most impactful tools in the early stages of my career. Developing complex desktop applications with intuitive interfaces and interactivity was fundamental to my growth as a developer. The robustness of Delphi allowed me to create large-scale systems, including management and automation software.
+  - name: CakePHP
+    slug: cakephp
+    period: 2013
+    description: |
+      With CakePHP, I started developing institutional websites and marketing campaigns for major Brazilian companies. The framework brought organization to PHP development, enabling the creation of scalable and secure applications quickly.
+  - name: MySQL
+    slug: mysql
+    period: 2013
+    description: |
+      I adopted MySQL as the primary database for projects developed with CakePHP. Its popularity and compatibility with PHP frameworks made it the ideal choice for efficiently storing and managing large amounts of data.
+  - name: CodeIgniter
+    slug: codeigniter
+    period: 2015
+    description: |
+      CodeIgniter was my introduction to the world of modern PHP frameworks. Its lightweight and easy-to-configure structure allowed for rapid application development without the complexity of other solutions at the time. With it, I created institutional websites and customized systems.
+  - name: Laravel
+    slug: laravel
+    period: 2017
+    description: |
+      In 2017, I adopted Laravel as my main PHP framework. Its modern MVC-based approach and features like Eloquent ORM, Blade, and migrations made it easier to develop scalable and well-structured applications. Since then, I have used Laravel to build robust systems, efficient APIs, and high-performance applications.
