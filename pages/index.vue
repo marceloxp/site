@@ -48,22 +48,7 @@
             </ul>
         </section>
 
-        <footer class="rounded-b-lg p-5">
-            <div class="grid grid-cols-1 sm:grid-cols-[auto_1fr] gap-4 w-6/12 mx-auto">
-                <div class="flex justify-center sm:justify-start">
-                    <p><a href="mailto:marceloxp@gmail.com" class="text-blue-500">marceloxp@gmail.com</a>
-                    </p>
-                </div>
-                <div class="text-center md:text-right">
-                    <p>
-                        <NuxtLink v-if="lang === 'en'" to="/pt" class="tooltip text-xl" data-tip="Mudar Linguagem">🇧🇷
-                        </NuxtLink>
-                        <NuxtLink v-if="lang === 'pt'" to="/" class="tooltip text-xl" data-tip="Change Language">🇺🇸
-                        </NuxtLink>
-                    </p>
-                </div>
-            </div>
-        </footer>
+        <Footer :lang="lang" :labels="data.labels" />
     </div>
 </template>
 
@@ -99,9 +84,5 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-footer {
-    background-color: #27252573;
 }
 </style>

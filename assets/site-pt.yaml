@@ -11,6 +11,9 @@ labels:
   projects: Projetos
   journey: Jornada Tecnológica
   contact: Entre em contato
+  change_language: Change Language
+  change_language_pt: Change Language
+  change_language_en: Alterar idioma
 
 skills:
   - PHP

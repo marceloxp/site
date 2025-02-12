@@ -7,6 +7,9 @@ labels:
   projects: Projects
   journey: Technological Journey
   contact: Get in touch
+  change_language: Alterar idioma
+  change_language_pt: Change Language
+  change_language_en: Alterar idioma
 
 skills:
   - PHP
