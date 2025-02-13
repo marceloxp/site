@@ -9,6 +9,7 @@ export default defineNuxtConfig({
         viewer: true,
     },
     app: {
+        baseURL: process.env.NUXT_APP_BASE_URL || '/site/',
         head: {
             title: 'MarceloXP - Desenvolvedor Full Stack',
             meta: [
@@ -17,4 +18,7 @@ export default defineNuxtConfig({
             ],
         },
     },
+    nitro: {
+        preset: 'github_pages'
+    }
 })
