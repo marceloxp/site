@@ -67,6 +67,9 @@ useHead({
         { rel: 'preload', href: '/images/background.png', as: 'image' },
         { rel: 'preload', href: '/images/site-header-bg.jpg', as: 'image' },
     ],
+    meta: [
+        { name: 'description', content: data.value?.meta?.description },
+    ],
     htmlAttrs: [{ 'data-theme': 'dark' }],
 })
 </script>
