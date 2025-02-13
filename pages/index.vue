@@ -62,13 +62,28 @@ const api_url = `/api/content/${lang}`
 
 const { data } = await useFetch(api_url)
 
+const url = useRequestURL();
+const currentUrl = url.href;
+const baseUrl = `${url.origin}/site`;
+const meta_image_src = `${baseUrl}/images/nose-3.png`;
+
 useHead({
     link: [
-        { rel: 'preload', href: '/images/background.png', as: 'image' },
-        { rel: 'preload', href: '/images/site-header-bg.jpg', as: 'image' },
+        { rel: 'preload', href: `${baseUrl}/images/background.png`, as: 'image' },
+        { rel: 'preload', href: `${baseUrl}/images/site-header-bg.jpg`, as: 'image' },
     ],
     meta: [
         { name: 'description', content: data.value?.meta?.description },
+
+        { property: 'og:title', content: data.value?.meta?.title },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: currentUrl },
+        { property: 'og:description', content: data.value?.meta?.description },
+        { property: 'og:image', content: meta_image_src },
+        
+        { property: 'twitter:title', content: data.value?.meta?.title },
+        { property: 'twitter:description', content: data.value?.meta?.description },
+        { property: 'twitter:image:src', content: meta_image_src },
     ],
     htmlAttrs: [{ 'data-theme': 'dark' }],
 })
