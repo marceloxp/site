@@ -20,5 +20,8 @@
     "vue-router": "latest",
     "vue3-carousel-nuxt": "^1.1.5",
     "yaml": "^2.7.0"
+  },
+  "overrides": {
+    "esbuild": "0.25.0"
   }
 }
