@@ -50,6 +50,8 @@
 
         <Footer :lang="lang" :labels="data.labels" />
     </div>
+
+    <ScrollToTop />
 </template>
 
 <script setup>
