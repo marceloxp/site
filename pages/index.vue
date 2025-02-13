@@ -63,8 +63,8 @@ const api_url = `/api/content/${lang}`
 const { data } = await useFetch(api_url)
 
 const url = useRequestURL();
-const currentUrl = url.href;
-const baseUrl = `${url.origin}/site`;
+const currentUrl = `${url.origin}${url.pathname}`;
+const baseUrl = process.env.NODE_ENV === 'production' ? 'https://marceloxp.github.io/site' : `${url.origin}/site`;
 const meta_image_src = `${baseUrl}/images/nose-3.png`;
 
 useHead({
