@@ -56,6 +56,7 @@
 
 <script setup>
 const route = useRoute()
+const config = useRuntimeConfig()
 
 const lang = (route.name === 'home-pt') ? 'pt' : 'en'
 const api_url = `/api/content/${lang}`
@@ -64,7 +65,7 @@ const { data } = await useFetch(api_url)
 
 const url = useRequestURL();
 const currentUrl = `${url.origin}${url.pathname}`;
-const baseUrl = process.env.NODE_ENV === 'production' ? 'https://marceloxp.github.io/site' : `${url.origin}/site`;
+const baseUrl = config.public.baseURL;
 const meta_image_src = `${baseUrl}/images/nose-3.png`;
 
 useHead({

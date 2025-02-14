@@ -8,13 +8,17 @@ export default defineNuxtConfig({
         exposeConfig: true,
         viewer: true,
     },
+    runtimeConfig: {
+        public : {
+            baseURL: process.env.NUXT_BASE_URL || 'https://marceloxp.github.io/site',
+        },
+    },
     app: {
-        baseURL: process.env.NUXT_APP_BASE_URL || '/site/',
+        baseURL: '/site/',
         head: {
             title: 'MarceloXP - Desenvolvedor Full Stack',
             meta: [
                 { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-                { name: 'description', content: 'MarceloXP - Desenvolvedor Full Stack' },
             ],
         },
     },
