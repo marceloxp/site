@@ -74,6 +74,7 @@ useHead({
         { rel: 'preload', href: `${baseUrl}/images/site-header-bg.jpg`, as: 'image' },
     ],
     meta: [
+        { name: 'title', content: data.value?.meta?.title },
         { name: 'description', content: data.value?.meta?.description },
 
         { property: 'og:title', content: data.value?.meta?.title },
