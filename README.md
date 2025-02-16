@@ -1,76 +1,25 @@
-# Nuxt Minimal Starter
+# MarceloXP - Full Stack Developer
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is the source code for my personal portfolio website, built with **Nuxt 3** and hosted on **GitHub Pages**. The site showcases my professional journey, projects, skills, and technologies.
 
-## Setup
+## 📌 About the Project
 
-Make sure to install dependencies:
+The purpose of this site is to highlight my achievements and experience in software development, featuring key projects and relevant technologies.
 
-```bash
-# npm
-npm install
+🔹 **Main Sections**:
+- **Skills**: Technologies and frameworks I currently work with.
+- **Projects**: A selection of my open-source projects and extensions.
+- **Technological Journey**: My evolution in development since 1986.
+- **Contact**: Links to my social media and ways to get in touch.
 
-# pnpm
-pnpm install
+## 🚀 Technologies Used
 
-# yarn
-yarn install
+- **Nuxt 3** - Modern Vue.js framework for optimized applications.
+- **TailwindCSS** + **daisyUI** - Flexible styling and pre-built components.
+- **Gulp** - Task automation during development.
+- **GitHub Pages** - Hosting the static website.
 
-# bun
-bun install
-```
+---
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-npx nuxt dev --host
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+📌 **Developed by [MarceloXP](https://github.com/marceloxp)**  
+🔗 **Live website**: [marceloxp.github.io/site](https://marceloxp.github.io/site/)
