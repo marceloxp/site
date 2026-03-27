@@ -18,6 +18,7 @@ labels:
 skills:
   - PHP
   - Laravel
+  - Filament
   - Node.js
   - Strapi
   - HTML5
