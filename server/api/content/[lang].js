@@ -17,5 +17,7 @@ export default defineEventHandler(async (event) => {
         history.imageUrl = generateImageUrl(history.slug)
     })
 
+    data.history.reverse()
+
     return data
 })
