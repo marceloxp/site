@@ -116,3 +116,8 @@ history:
     period: 2017
     description: |
       In 2017, I adopted Laravel as my main PHP framework. Its modern MVC-based approach and features like Eloquent ORM, Blade, and migrations made it easier to develop scalable and well-structured applications. Since then, I have used Laravel to build robust systems, efficient APIs, and high-performance applications.
+  - name: Filament
+    slug: filament
+    period: 2024
+    description: |
+      In 2024, I incorporated Filament into my workflow as a native Laravel admin panel. Its elegant and highly extensible architecture, combined with impressive productivity in developing rich interfaces, made it the natural choice for projects that demand agility without compromising solidity. With Filament, complete dashboards and management systems take shape in a fraction of the time, while keeping the code clean, secure, and easy to maintain - a real leap in efficiency and delivery quality.

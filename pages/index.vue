@@ -8,7 +8,7 @@
                         <div class="flex justify-center sm:justify-start">
                             <div class="avatar">
                                 <div class="rounded-xl overflow-hidden w-48 h-48">
-                                    <NuxtImg src="/images/nose-3.png" class="w-full h-full object-cover" />
+                                    <NuxtImg src="/images/avatar-1.png" class="w-full h-full object-cover" />
                                 </div>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ const { data } = await useFetch(api_url)
 const url = useRequestURL();
 const currentUrl = `${url.origin}${url.pathname}`;
 const baseUrl = config.public.baseURL;
-const meta_image_src = `${baseUrl}/images/nose-3.png`;
+const meta_image_src = `${baseUrl}/images/avatar-1.png`;
 
 useHead({
     link: [
