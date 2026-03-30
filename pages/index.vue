@@ -1,4 +1,6 @@
 <template>
+    <SiteTopbar :lang="lang" :labels="data.labels" />
+
     <div class="container mx-auto px-6 py-4">
         <div id="top-hero" class="hero">
             <div class="hero-overlay"></div>
@@ -48,7 +50,9 @@
             </ul>
         </section>
 
-        <Footer :lang="lang" :labels="data.labels" />
+        <footer class="site-footer">
+            <p>© {{ new Date().getFullYear() }} MarceloXP</p>
+        </footer>
     </div>
 
     <ScrollToTop />
@@ -82,7 +86,7 @@ useHead({
         { property: 'og:url', content: currentUrl },
         { property: 'og:description', content: data.value?.meta?.description },
         { property: 'og:image', content: meta_image_src },
-        
+
         { property: 'twitter:title', content: data.value?.meta?.title },
         { property: 'twitter:description', content: data.value?.meta?.description },
         { property: 'twitter:image:src', content: meta_image_src },
@@ -106,5 +110,14 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    margin-top: 2rem;
 }
 </style>
