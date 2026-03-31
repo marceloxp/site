@@ -58,6 +58,11 @@ projects:
     description: |
       Com QuickMarks for YouTube, você pode marcar momentos específicos em vídeos, organizá-los e acessá-los de maneira rápida.
     link: 'https://chromewebstore.google.com/detail/quickmarks-for-youtube/jldmmhngchnkkgmjpjncaekemhceaing'
+  - name: IArtisan
+    image: images/projects/IArtisan.png
+    description: |
+      IArtisan é uma ferramenta de linha de comando que usa a API do Google Gemini para sugerir comandos `php artisan` em projetos Laravel e Filament a partir de prompts em linguagem natural.
+    link: 'https://github.com/marceloxp/iartisan'
 
 history:
   - name: Basic TK2000
