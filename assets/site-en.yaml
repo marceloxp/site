@@ -17,6 +17,9 @@ labels:
   change_language_en: Alterar idioma
 
 skills:
+  - Claude
+  - Cursor
+  - Ollama
   - PHP
   - Laravel
   - Filament
