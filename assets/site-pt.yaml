@@ -67,6 +67,11 @@ projects:
     description: |
       IArtisan é uma ferramenta de linha de comando que usa a API do Google Gemini para sugerir comandos `php artisan` em projetos Laravel e Filament a partir de prompts em linguagem natural.
     link: 'https://github.com/marceloxp/iartisan'
+  - name: agent-rm
+    image: images/projects/AgentRm.png
+    description: |
+      Comando de exclusão segura para agentes de IA: move um arquivo por vez para a lixeira do sistema, em vez de apagar de forma permanente. Somente Linux desktop (gio trash); sem suporte a macOS ou Windows.
+    link: 'https://github.com/marceloxp/agent-rm'
 
 history:
   - name: Basic TK2000
