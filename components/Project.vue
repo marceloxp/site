@@ -5,14 +5,14 @@
             <h1 class="card-title text-xl">{{ project.name }}</h1>
             <p class="line-clamp-3">{{ project.description }}</p>
             <div class="card-actions">
-                <a :href="project.link" target="_blank" class="btn btn-accent">Ver Projeto</a>
+                <a :href="project.link" target="_blank" class="btn btn-accent">{{ viewProjectLabel }}</a>
             </div>
         </div>
     </div>
 </template>
 
 <script setup>
-const { project } = defineProps(['project']);
+const { project, viewProjectLabel } = defineProps(['project', 'viewProjectLabel']);
 </script>
 
 <style scoped></style>

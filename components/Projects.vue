@@ -1,7 +1,7 @@
 <template>
         <Carousel v-bind="carouselConfig">
             <Slide v-for="project in projects" :key="project.name">
-                <Project :project="project" />
+                <Project :project="project" :view-project-label="viewProjectLabel" />
             </Slide>
 
             <template #addons>
@@ -15,7 +15,7 @@
 import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 
-const { projects } = defineProps(['projects'])
+const { projects, viewProjectLabel } = defineProps(['projects', 'viewProjectLabel'])
 
 const carouselConfig = {
     itemsToShow: 1,

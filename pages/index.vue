@@ -39,7 +39,7 @@
 
         <section v-if="data" class="mt-10">
             <h1 class="text-2xl font-semibold text-center mb-8">{{ data.labels.projects }}</h1>
-            <Projects :projects="data.projects" />
+            <Projects :projects="data.projects" :view-project-label="data.labels.view_project" />
         </section>
 
         <section v-if="data" class="mt-10 mb-10">

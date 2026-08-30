@@ -12,12 +12,14 @@ The purpose of this site is to highlight my achievements and experience in softw
 - **Technological Journey**: My evolution in development since 1986.
 - **Contact**: Links to my social media and ways to get in touch.
 
+Content lives in bilingual YAML (`assets/site-en.yaml`, `assets/site-pt.yaml`). Routes: `/` (English) and `/pt` (Portuguese).
+
 ## 🚀 Technologies Used
 
-- **Nuxt 3** - Modern Vue.js framework for optimized applications.
-- **TailwindCSS** + **daisyUI** - Flexible styling and pre-built components.
-- **Gulp** - Task automation during development.
-- **GitHub Pages** - Hosting the static website.
+- **Nuxt 3** - Vue.js framework, static generation for GitHub Pages.
+- **TailwindCSS** + **daisyUI** - Styling and UI components.
+- **GitHub Actions** - Build and deploy on push to `main`.
+- **GitHub Pages** - Hosting at `/site/`.
 
 ---
 
